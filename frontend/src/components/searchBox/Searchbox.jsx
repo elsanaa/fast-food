@@ -59,7 +59,7 @@ const Searchbox = () => {
                 <label>
                     <input
                         type="text"
-                        placeholder="Search foods"
+                        placeholder="Search"
                         value={searchBox}
                         autoFocus
                         onChange={(e) => setSearchBox(e.target.value)}
